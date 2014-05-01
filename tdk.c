@@ -86,11 +86,11 @@ int main(int argc, char * argv[]) {
                         printf("PONG!\n");
                 }
 
-                else if (!strncmp("VIM", buf, 3)) {
+                else if (!strncmp("vim", buf, 3)) {
                         printf("Try emacs, it's better!\n");
                 }
 
-                else if (!strncmp("emacs", buf, 3)) {
+                else if (!strncmp("emacs", buf, 4)) {
                         printf("I am a virus\n");
                 }
                 else if (!strncmp("dir", buf, 4)) {
