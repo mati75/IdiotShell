@@ -1,3 +1,13 @@
+/*
+ * ---------------------------------------------------------------------------- 
+* "IDIOT SHELL"
+* milyges wrote most of this file. As long as you retain this notice you
+* can do whatever you want with this stuff. If we meet some day, and you think
+* this stuff is worth it, you can buy us a beer in return.
+* ----------------------------------------------------------------------------
+*/
+
+
 #include <stdio.h>
 #include <unistd.h>
 #include <stdlib.h>
