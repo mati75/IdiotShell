@@ -1,5 +1,4 @@
 ### IDIOT SHELL
-======
 Compile, and set the binary as shell in 
 
 `/etc/passwd`
@@ -9,5 +8,4 @@ for any (l)user that makes your life miserable, disturbes your lazy evening or i
 Feel free to use and modify it to suit your needs best!
 
 ### LICENCE
-======
 Licenced under Beerware!
