@@ -89,10 +89,12 @@ int main(int argc, char * argv[]) {
                 else if (!strncmp("vim", buf, 3)) {
                         printf("Try emacs, it's better!\n");
                 }
-
-                else if (!strncmp("emacs", buf, 5)) {
-                        printf("I am a hacker's tool. Usage with sendmail is forbidden, under penalty of death. Are you sure you want to launch me? (Y/n): \n");
+		else if (!strncmp("emacs", buf, 5)) {
+			printf("Potrójna ściana ognia do złamania tylko emacsem przez sendmail!\n");
                 }
+		else if (!strncmp("sendmail", buf, 8)) {
+		printf("Command not found\n");
+		}
                 else if (!strncmp("dir", buf, 3)) {
                         printf("What did you mean by: Directory?\n Directory may refer to:\n Directory (computing), or folder, a file system structure in which to store computer files\n Directory service, a software application for organizing information about a computer network's users and resources\n Directory (political), a small group of influential states that is said to 'direct' the agenda\n  French Directory, the government in revolutionary France from 1795 to 1799\n Business directory, a listing of information about suppliers and manufacturers\n Telephone directory, a book which allows telephone numbers to be found given the subscriber's name\n Web directory, an organized collection of links to websites");
                 }
