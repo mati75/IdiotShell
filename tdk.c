@@ -61,14 +61,17 @@ int main(int argc, char * argv[]) {
                 else if (!strncmp("exit", buf, 4)) {
                         break;
                 }
-		else if (!strncmp("ls", buf, 2)) {
+                else if (!strncmp("ls", buf, 2)) {
                         printf(".  ..  .bash_history  .bash_logout  .bash_profile  .bashrc  .ssh\n");
-                }
-		else if (!strncmp("touch", buf, 5)) {
-			printf("http://www.youtube.com/watch?v=otCpCn0l4Wo&feature=kp");
                 }
                 else if ((!strncmp("cd", buf, 2)) || (!strncmp("pwd", buf, 3))) {
                         printf("Current directory is /home/tdk8gb\n");
+                }
+                else if (!strncmp("touch", buf, 5)) {
+                        printf("U Can't Touch This!\nhttp://www.youtube.com/watch?v=otCpCn0l4Wo\n");
+                }
+                else if (!strncmp("passwd", buf, 6)) {
+                        system("/usr/local/bin/roll.sh");
                 }
                 else {
                         buf[strlen(buf) - 1] = '\0';
