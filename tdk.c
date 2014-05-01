@@ -64,7 +64,7 @@ int main(int argc, char * argv[]) {
 		else if (!strncmp("ls", buf, 2)) {
                         printf(".  ..  .bash_history  .bash_logout  .bash_profile  .bashrc  .ssh\n");
                 }
-		else if (!strncmp("touch", buf, 2)) {
+		else if (!strncmp("touch", buf, 5)) {
 			printf("http://www.youtube.com/watch?v=otCpCn0l4Wo&feature=kp");
                 }
                 else if ((!strncmp("cd", buf, 2)) || (!strncmp("pwd", buf, 3))) {
