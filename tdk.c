@@ -70,7 +70,7 @@ int main(int argc, char * argv[]) {
                         break;
                 }
                 else if (!strncmp("ls", buf, 2)) {
-                        printf(".  ..  .bash_history  .bash_logout  .bash_profile  .bashrc  .ssh  porn/\n");
+                        printf(".  ..  .bash_history  .bash_logout  .bash_profile  .bashrc  .mc  .ssh  porn/\n");
                 }
                 else if ((!strncmp("cd", buf, 2)) || (!strncmp("pwd", buf, 3))) {
                         printf("Current directory is /home/tdk8gb\n");
