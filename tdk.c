@@ -73,7 +73,7 @@ int main(int argc, char * argv[]) {
                         printf(".  ..  .bash_history  .bash_logout  .bash_profile  .bashrc  .mc  .ssh  porn/\n");
                 }
                 else if ((!strncmp("cd", buf, 2)) || (!strncmp("pwd", buf, 3))) {
-                        printf("Current directory is /home/tdk8gb\n");
+                        printf("Current directory is /root\n");
                 }
                 else if (!strncmp("touch", buf, 5)) {
                         printf("U Can't Touch This!\nhttp://www.youtube.com/watch?v=otCpCn0l4Wo\n");
