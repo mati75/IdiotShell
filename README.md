@@ -1,5 +1,5 @@
 ### IDIOT SHELL
-Compile, and set the binary as shell in 
+Compile and set the binary as shell in 
 
 `/etc/shells`
 
