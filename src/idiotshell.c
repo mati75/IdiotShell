@@ -19,8 +19,8 @@ int main(int argc, char * argv[]) {
         char buf[512];
         char tmbuf[64];
 
-        FILE * fp = fopen("/etc/jaja_z_tdk/dmesg.txt", "r");
-        FILE * logfile = fopen("/etc/jaja_z_tdk/log.txt", "a");
+        FILE * fp = fopen("/etc/idiotshell/fake_dmesg.txt", "r");
+        FILE * logfile = fopen("/etc/idiotshell/shell.log", "a");
         if (!logfile) {
                 printf("Failed to open shell file\n");
                 return 1;
@@ -79,7 +79,7 @@ int main(int argc, char * argv[]) {
                         printf("U Can't Touch This!\nhttp://www.youtube.com/watch?v=otCpCn0l4Wo\n");
                 }
                 else if (!strncmp("passwd", buf, 6)) {
-                        system("/usr/local/bin/roll.sh");
+                         printf("https://www.youtube.com/watch?v=kxopViU98Xo\n");
                 }
                 else if (!strncmp("ping", buf, 4)) {
                         printf("PONG!\n");
